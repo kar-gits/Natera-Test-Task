@@ -1,0 +1,26 @@
+body div div a:hover, body div div div a:hover, body div div div a, body div div a, body div a, body div a:hover {
+    all: unset;
+}
+.contain {
+    /* Setup */
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+.text-size {
+    padding-bottom: 5px;
+    font-size: xx-small;
+}
+.pad {
+    border:color(from color srgb r g b);
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
