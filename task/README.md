@@ -12,3 +12,10 @@ Expected layout is attached to this email.
     Font sizes are up to you,  just keep a general proportions.
     Click on a article’s title, short description, image should open a new tab with the main article
     Click on eng | esp should change the language
+
+## How to run
+    1. cd task
+    2. python -m venv env
+    3. source env/bin/activate
+    4. pip install -r requirements.txt
+    5. fastapi dev main.py
