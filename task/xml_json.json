@@ -1,0 +1,1168 @@
+{
+    "rss": {
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:nyt": "http://www.nytimes.com/namespaces/rss/2.0",
+        "@version": "2.0",
+        "channel": {
+            "title": "NYT > Technology",
+            "link": "https://www.nytimes.com/section/technology",
+            "atom:link": {
+                "@href": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "description": null,
+            "language": "en-us",
+            "copyright": "Copyright 2024 The New York Times Company",
+            "lastBuildDate": "Fri, 04 Oct 2024 20:35:19 +0000",
+            "pubDate": "Fri, 04 Oct 2024 19:20:08 +0000",
+            "image": {
+                "title": "NYT > Technology",
+                "url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+                "link": "https://www.nytimes.com/section/technology"
+            },
+            "item": [
+                {
+                    "title": "Cerebras Files Prospectus for I.P.O.",
+                    "link": "https://www.nytimes.com/2024/09/30/technology/cerebras-ai-chips-ipo.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/30/technology/cerebras-ai-chips-ipo.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/30/technology/cerebras-ai-chips-ipo.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The Silicon Valley company would be among the first A.I. companies to go public since the release of ChatGPT nearly two years ago.",
+                    "dc:creator": "Erin Griffith and Cade Metz",
+                    "pubDate": "Tue, 01 Oct 2024 18:11:43 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Stocks and Bonds"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computer Chips"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Start-ups"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Initial Public Offerings"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Cerebras Systems"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "NVIDIA Corporation"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1799",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/25/multimedia/AI-IPO-01-zwtj/AI-IPO-01-zwtj-mediumSquareAt3X-v2.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Cayce Clifford for The New York Times",
+                    "media:description": "Cerebras makes a chip that is 56 times the size of a chip commonly used for artificial intelligence, with the potential to crunch data much faster."
+                },
+                {
+                    "title": "OpenAI Is Growing Fast and Burning Through Piles of Money",
+                    "link": "https://www.nytimes.com/2024/09/27/technology/openai-chatgpt-investors-funding.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/27/technology/openai-chatgpt-investors-funding.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/27/technology/openai-chatgpt-investors-funding.html",
+                        "@rel": "standout"
+                    },
+                    "description": "As the company looks for more outside investors, documents reviewed by The New York Times show consumer fascination with ChatGPT and a serious need for more cash.",
+                    "dc:creator": "Mike Isaac and Erin Griffith",
+                    "pubDate": "Sat, 28 Sep 2024 18:27:48 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "ChatGPT"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Finances"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Venture Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Start-ups"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Microsoft Corp"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Thrive Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Altman, Samuel H"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/27/multimedia/27openai-finance-hlvz/27openai-finance-hlvz-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Bryan R. Smith/Agence France-Presse — Getty Images",
+                    "media:description": "The chief executive of OpenAI, Sam Altman, center, is pitching an investment round that could value the start-up at $150 billion."
+                },
+                {
+                    "title": "Meta’s Race for Your Face, Google’s Hit A.I. Notebook and HatGPT",
+                    "link": "https://www.nytimes.com/2024/09/27/podcasts/metas-race-for-your-face-googles-hit-ai-notebook-and-hatgpt.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/27/podcasts/metas-race-for-your-face-googles-hit-ai-notebook-and-hatgpt.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/27/podcasts/metas-race-for-your-face-googles-hit-ai-notebook-and-hatgpt.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Building great A.R. glasses is the hardest problem in consumer technology.",
+                    "dc:creator": "Kevin Roose, Casey Newton, Rachel Cohn, Whitney Jones, Jen Poyant, Daniel Ramirez, Dan Powell, Elisheba Ittoop, Marion Lozano and Rowan Niemisto",
+                    "pubDate": "Tue, 01 Oct 2024 17:44:45 +0000",
+                    "category": {
+                        "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                        "#text": "Science and Technology"
+                    },
+                    "media:content": {
+                        "@height": "1799",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/27/podcasts/27hard-fork-meta-glasses-treatment/27hard-fork-meta-glasses-treatment-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Photo Illustration by The New York Times; Photo: Andrej Sokolow/Picture Alliance, via Getty Images"
+                },
+                {
+                    "title": "G.M. Reaches $1.5 Million Fine After Self-Driving Taxi Accident",
+                    "link": "https://www.nytimes.com/2024/09/30/business/gm-cruise-nhtsa-fine.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/30/business/gm-cruise-nhtsa-fine.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/30/business/gm-cruise-nhtsa-fine.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The General Motors subsidiary reached a settlement with the main auto safety regulator after one of its self-driving taxis struck a pedestrian in San Francisco last year.",
+                    "dc:creator": "Jack Ewing",
+                    "pubDate": "Mon, 30 Sep 2024 20:09:34 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "General Motors"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Cruise LLC"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "National Highway Traffic Safety Administration"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Traffic Accidents and Safety"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Automobile Safety Features and Defects"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Compensation for Damages (Law)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Automobiles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Driverless and Semiautonomous Vehicles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Taxicabs and Taxicab Drivers"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "San Francisco (Calif)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Waymo"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Electric and Hybrid Vehicles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Zoox Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Tesla Motors Inc"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1339",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/30/multimedia/CRUISE-01-glkf/CRUISE-01-glkf-mediumSquareAt3X.jpg",
+                        "@width": "1339"
+                    },
+                    "media:credit": "Elijah Nouvelage/Reuters",
+                    "media:description": "Cruise will pay a $1.5 million penalty and face increased oversight of its activities as it restarts testing of its technology."
+                },
+                {
+                    "title": "Meta Unveils New Instant A.I. Generator",
+                    "link": "https://www.nytimes.com/2024/10/04/technology/meta-instant-ai-video-generator-adds-sounds.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/04/technology/meta-instant-ai-video-generator-adds-sounds.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/04/technology/meta-instant-ai-video-generator-adds-sounds.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The tech giant is among the many companies building technology that could remake Hollywood — or help spread disinformation.",
+                    "dc:creator": "Cade Metz and Mike Isaac",
+                    "pubDate": "Fri, 04 Oct 2024 13:57:13 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Social Media"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Meta Platforms Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        }
+                    ]
+                },
+                {
+                    "title": "Can California Regulate A.I.? + Silicon Valley’s Super Babies + System Update!",
+                    "link": "https://www.nytimes.com/2024/10/04/podcasts/hard-fork-newsom-ai-fertility.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/04/podcasts/hard-fork-newsom-ai-fertility.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/04/podcasts/hard-fork-newsom-ai-fertility.html",
+                        "@rel": "standout"
+                    },
+                    "description": "“In the United States, we have 50 laboratories of democracy and they’re called states.”",
+                    "dc:creator": "Kevin Roose, Casey Newton, Whitney Jones, Rachel Cohn, Jen Poyant, Chris Wood, Dan Powell, Elisheba Ittoop, Marion Lozano, Corey Schreppel and Diane Wong",
+                    "pubDate": "Fri, 04 Oct 2024 09:04:00 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Science and Technology"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Newsom, Gavin"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Birth Rates"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/04/podcasts/04hardfork-sb1047-treatment/04hardfork-sb1047-treatment-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Photo Illustration by The New York Times; Photo: Eric Thayer/Associated Press"
+                },
+                {
+                    "title": "OpenAI Adds $4 Billion Credit Line on Top of $6.6 Billion Investment Round",
+                    "link": "https://www.nytimes.com/2024/10/03/technology/openai-credit-line.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/03/technology/openai-credit-line.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/03/technology/openai-credit-line.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The San Francisco company is gathering the billions its executives believe they will need to continue building new A.I. technology.",
+                    "dc:creator": "Michael J. de la Merced and Mike Isaac",
+                    "pubDate": "Thu, 03 Oct 2024 19:15:05 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "ChatGPT"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Venture Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Banking and Financial Institutions"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1799",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/03/business/03openai-credit/03openai-credit-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Stefano Guidi/Getty Images",
+                    "media:description": "OpenAI, led by its chief executive, Sam Altman, set up a revolving line of credit with JPMorgan Chase, Citigroup, Goldman Sachs, Morgan Stanley, Santander, Wells Fargo, SMBC, UBS and HSBC."
+                },
+                {
+                    "title": "Abuse Claims Add to Telegram C.E.O. Pavel Durov’s Legal Troubles",
+                    "link": "https://www.nytimes.com/2024/10/03/technology/pavel-durov-telegram-abuse-claims.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/03/technology/pavel-durov-telegram-abuse-claims.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/03/technology/pavel-durov-telegram-abuse-claims.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The mother of three children with Pavel Durov has poked holes in the Russian tech titan’s carefully managed image through a criminal complaint and her account of their opulent lifestyle.",
+                    "dc:creator": "Adam Satariano and Paul Mozur",
+                    "pubDate": "Thu, 03 Oct 2024 19:25:10 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Durov, Pavel Valeryevich (1984- )"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Bolgar, Irina"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Child Abuse and Neglect"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Child Custody and Support"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Suits and Litigation (Civil)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "High Net Worth Individuals"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Luxury Goods and Services"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Mobile Applications"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Telegram LLC"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Social Media"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/30/multimedia/DUROV-ABUSE-IRINA-01-vgbq/DUROV-ABUSE-IRINA-01-vgbq-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Clara Watt for The New York Times",
+                    "media:description": "Irina Bolgar said she had a romantic relationship with the Telegram founder Pavel Durov for about a decade."
+                },
+                {
+                    "title": "OpenAI Completes Deal That Values Company at $157 Billion",
+                    "link": "https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The A.I. start-up’s valuation has risen by more than $70 billion in nine months.",
+                    "dc:creator": "Cade Metz",
+                    "pubDate": "Wed, 02 Oct 2024 18:00:49 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Venture Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Thrive Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Microsoft Corp"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/02/business/00openai-deal-hfo/00openai-deal-hfo-mediumSquareAt3X-v2.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Chona Kasinger/Bloomberg",
+                    "media:description": "Sam Altman, chief executive officer of OpenAI, spoke in May at a Microsoft event in Seattle. The tech giant is the start-up’s biggest investor."
+                },
+                {
+                    "title": "Did Apple Just Kill Social Apps?",
+                    "link": "https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Some app makers worry that a subtle change to the iPhone’s contact-sharing permissions could make it hard for them to get the fast growth they need to compete.",
+                    "dc:creator": "Kevin Roose",
+                    "pubDate": "Thu, 03 Oct 2024 02:39:53 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Mobile Applications"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "iOS (Operating System)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Social Media"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "iPhone"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Software"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Apple Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Facebook Inc"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1801",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/30/business/00roose-apple-social/00roose-apple-social-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Mark Wang"
+                },
+                {
+                    "title": "Tesla Sales Increase, Suggesting Electric Car Demand Is Rebounding",
+                    "link": "https://www.nytimes.com/2024/10/02/business/tesla-electric-vehicle-sales.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/02/business/tesla-electric-vehicle-sales.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/02/business/tesla-electric-vehicle-sales.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The automaker reported a gain of 6.4 percent for the latest quarter, its first such increase this year.",
+                    "dc:creator": "Jack Ewing and Neal E. Boudette",
+                    "pubDate": "Wed, 02 Oct 2024 20:27:08 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Tesla Motors Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Electric and Hybrid Vehicles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Automobiles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Company Reports"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Driverless and Semiautonomous Vehicles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Batteries"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Musk, Elon"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "United States"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "China"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Europe"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1799",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/02/multimedia/02tesla-sales-lhwj/02tesla-sales-lhwj-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Justin Sullivan/Getty Images",
+                    "media:description": "Tesla increased sales in part by offering car loans with relatively low interest rates."
+                },
+                {
+                    "title": "Apple’s A.I. Is Landing Soon on iPhones. Here’s What It’s Like.",
+                    "link": "https://www.nytimes.com/2024/10/02/technology/personaltech/apple-intelligence-iphone.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/02/technology/personaltech/apple-intelligence-iphone.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/02/technology/personaltech/apple-intelligence-iphone.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The initial version of Apple Intelligence focuses on helping you with words and photos. Prepare to be impressed and unnerved.",
+                    "dc:creator": "Brian X. Chen",
+                    "pubDate": "Wed, 02 Oct 2024 09:03:09 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "iPhone"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Software"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Apple Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Smartphones"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Content Type: Service"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/04/business/00techfix/00techfix-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Derek Abella"
+                },
+                {
+                    "title": "CRV, a Venture Capital Firm, Will Return Money to Investors",
+                    "link": "https://www.nytimes.com/2024/10/02/technology/crv-vc-fund-returning-money.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/10/02/technology/crv-vc-fund-returning-money.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/10/02/technology/crv-vc-fund-returning-money.html",
+                        "@rel": "standout"
+                    },
+                    "description": "CRV, based in Silicon Valley, plans to return to investors $275 million because the market for mature start-ups has soured.",
+                    "dc:creator": "Erin Griffith",
+                    "pubDate": "Wed, 02 Oct 2024 09:02:52 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Charles River Ventures"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Venture Capital"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Start-ups"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1801",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/02/multimedia/02vd-fund-qkhc/02vd-fund-qkhc-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Ryan Young for The New York Times",
+                    "media:description": "Four of CRV’s partners, clockwise from rear left: Reid Christian, Murat Bicer, Saar Gur, and Max Gazor at the firm’s office in Palo Alto, Calif."
+                },
+                {
+                    "title": "Robert Downey Jr. Is a Novelist With a Novel Muse in ‘McNeal’",
+                    "link": "https://www.nytimes.com/2024/09/30/theater/mcneal-review-ai-robert-downey-jr.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/30/theater/mcneal-review-ai-robert-downey-jr.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/30/theater/mcneal-review-ai-robert-downey-jr.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The “Oppenheimer” star makes his Broadway debut in Ayad Akhtar’s timely new play about a literary lion who gets assistance from A.I.",
+                    "dc:creator": "Jesse Green",
+                    "pubDate": "Tue, 01 Oct 2024 01:10:04 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Theater"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Theater (Broadway)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Beaumont, Vivian, Theater"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Lincoln Center Theater"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_ttl",
+                            "#text": "McNeal (Play)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Akhtar, Ayad"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Sher, Bartlett"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Downey, Robert Jr"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Martin, Andrea (1947- )"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/10/01/multimedia/30mcneal-1-gwlv/30mcneal-1-gwlv-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Sara Krulwich/The New York Times",
+                    "media:description": "Robert Downey Jr. goes dark in “McNeal,” a thought experiment about art and A.I., at the Vivian Beaumont Theater in Manhattan."
+                },
+                {
+                    "title": "Verizon Mobile Outages Reported Across the U.S.",
+                    "link": "https://www.nytimes.com/2024/09/30/business/verizon-mobile-outages-us.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/30/business/verizon-mobile-outages-us.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/30/business/verizon-mobile-outages-us.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The number of cases peaked at more than 100,000 Monday morning, according to the website Downdetector. Users complained of being unable to make calls or send texts.",
+                    "dc:creator": "Annie Correal",
+                    "pubDate": "Mon, 30 Sep 2024 23:04:45 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computer Network Outages"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Telephones and Telecommunications"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Verizon Communications Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "United States"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1799",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/30/multimedia/30xp-verizonoutage-vzwf/30xp-verizonoutage-vzwf-mediumSquareAt3X-v2.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Justin Sullivan/Getty Images",
+                    "media:description": "Verizon users said their phones were intermittently displaying “SOS” mode and that they could not place calls or send or receive text messages."
+                },
+                {
+                    "title": "California’s Governor Gavin Newsom Vetoes Sweeping A.I. Legislation",
+                    "link": "https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The bill would have been the first in the nation to place strict guardrails on the new technology, but Gov. Gavin Newsom said the bill was flawed.",
+                    "dc:creator": "Cecilia Kang",
+                    "pubDate": "Mon, 30 Sep 2024 20:16:52 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Regulation and Deregulation of Industry"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Law and Legislation"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "California"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Newsom, Gavin"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Vetoes (US)"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/04/multimedia/00CA-AI-HFO-newsom-hjqz/00CA-AI-HFO-newsom-hjqz-mediumSquareAt3X-v2.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Jim Vondruska for The New York Times",
+                    "media:description": "Gov. Gavin Newsom said that he had asked technology and legal scholars to work with legislators in writing a new bill."
+                },
+                {
+                    "title": "California Passes Law Protecting Consumer Brain Data",
+                    "link": "https://www.nytimes.com/2024/09/29/science/california-neurorights-tech-law.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/29/science/california-neurorights-tech-law.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/29/science/california-neurorights-tech-law.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The state extended its current personal privacy law to include the neural data increasingly coveted by technology companies.",
+                    "dc:creator": "Jonathan Moens",
+                    "pubDate": "Mon, 30 Sep 2024 16:04:07 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Brain"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Biometrics"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Law and Legislation"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Regulation and Deregulation of Industry"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "State Legislatures"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Privacy"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Data-Mining and Database Marketing"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Computers and the Internet"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Newsom, Gavin"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "California"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/30/multimedia/30neurorights-ztjp/30neurorights-ztjp-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "John Locher/Associated Press",
+                    "media:description": "A hands-free brain-computer interface device at the Consumer Electronics Show in Las Vegas."
+                },
+                {
+                    "title": "Why Stellantis, Owner of Chrysler, Jeep and Ram, Is Struggling",
+                    "link": "https://www.nytimes.com/2024/09/29/business/stellantis-jeep-dodge-strike.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/29/business/stellantis-jeep-dodge-strike.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/29/business/stellantis-jeep-dodge-strike.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The automaker, created by a 2021 merger, is dealing with labor unrest, slumping sales and a revolt from its dealers.",
+                    "dc:creator": "Jack Ewing",
+                    "pubDate": "Mon, 30 Sep 2024 16:32:23 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Stellantis NV"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Company Reports"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Automobiles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Strikes"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Labor and Jobs"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Factories and Manufacturing"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Layoffs and Job Reductions"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Organized Labor"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Executive Compensation"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Stocks and Bonds"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Fiat Chrysler Automobiles NV"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Peugeot SA"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Tavares, Carlos"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Fain, Shawn"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "United States"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/25/multimedia/STELLANTIS-05-ghzc/STELLANTIS-05-ghzc-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Tag Christof for The New York Times",
+                    "media:description": "Dealers and analysts said Stellantis had moved too slowly to offer incentives as demand for new cars weakened."
+                },
+                {
+                    "title": "Titan Sub Hearing: What We’ve Learned So Far",
+                    "link": "https://www.nytimes.com/2024/09/27/science/titan-submersible-oceangate-hearing.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/27/science/titan-submersible-oceangate-hearing.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/27/science/titan-submersible-oceangate-hearing.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Contrary to public reports last year, the passengers probably had no idea that the vessel was about to implode.",
+                    "dc:creator": "William J. Broad",
+                    "pubDate": "Fri, 27 Sep 2024 20:47:52 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OceanGate Expeditions (Argus Expeditions Ltd)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Submarines and Submersibles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "United States Coast Guard"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "your-feed-science"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Rush, Stockton (1962-2023)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Maritime Accidents and Safety"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Deaths (Fatalities)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Diving and Divers"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Nargeolet, Paul-Henri (1946-2023)"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1080",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/27/multimedia/27titan-roundup-01-bkpg/27titan-roundup-01-bkpg-mediumSquareAt3X.jpg",
+                        "@width": "1080"
+                    },
+                    "media:credit": "U.S. Coast Guard, via Reuters",
+                    "media:description": "The Coast Guard released footage from a remotely operated vehicle that it said showed debris of the Titan submersible on the sea floor."
+                },
+                {
+                    "title": "Hurricanes and Wildfires Are Taxing Utilities. Can A.I. Help?",
+                    "link": "https://www.nytimes.com/2024/09/27/climate/power-outages-utilities-ai.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2024/09/27/climate/power-outages-utilities-ai.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2024/09/27/climate/power-outages-utilities-ai.html",
+                        "@rel": "standout"
+                    },
+                    "description": "From hurricanes to wildfires, a new generation of technologies could help utilities better plan for the risk of extreme weather to their electric grid.",
+                    "dc:creator": "Austyn Gaffney",
+                    "pubDate": "Tue, 01 Oct 2024 18:28:35 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Global Warming"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Greenhouse Gas Emissions"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Wildfires"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Weather"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Power Failures and Blackouts"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Alternative and Renewable Energy"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Hurricane Helene (2024)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Infrastructure (Public Works)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Disasters and Emergencies"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Amazon.com Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Google Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Meta Platforms Inc"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "OpenAI Labs"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "California"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Florida"
+                        }
+                    ],
+                    "media:content": {
+                        "@height": "1800",
+                        "@medium": "image",
+                        "@url": "https://static01.nyt.com/images/2024/09/27/multimedia/27cli-POWER-OUTAGES-AI-zqlk/27cli-POWER-OUTAGES-AI-zqlk-mediumSquareAt3X.jpg",
+                        "@width": "1800"
+                    },
+                    "media:credit": "Marco Bello/Reuters",
+                    "media:description": "Downed power lines in Crawfordville, Fla., on Friday morning."
+                }
+            ]
+        }
+    }
+}
