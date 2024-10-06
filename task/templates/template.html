@@ -32,7 +32,7 @@
     {% for item in data %}
         <div class="row border-bottom border-dark contain">
                 <div class="media col-10 col-md-8">
-                    <a href="{{ item['link'] }}">
+                    <a href="{{ item['link'] }}" target="_blank">
                     <div class="media-body">
                         <h6>{{ item['pub_date'] }}</h6>
                         <h5>{{ item["title"] }}</h5>
@@ -44,7 +44,7 @@
                     </div>
                     </a>
                 </div>
-                <div class="col-8 col-md-4"><a href="{{ item['link'] }}"><img class="ml-3 rounded float-end" src="{{ item['image_url'] }}" style="display: inline-block;" alt="{{ item['title'] }}" height="200px" width="300px"></a></div>
+                <div class="col-8 col-md-4"><a href="{{ item['link'] }}" target="_blank"><img class="ml-3 rounded float-end" src="{{ item['image_url'] }}" style="display: inline-block;" alt="{{ item['title'] }}" height="200px" width="300px"></a></div>
         </div>
     {% endfor %}
     </div>
