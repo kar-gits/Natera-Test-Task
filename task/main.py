@@ -12,7 +12,6 @@ app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-
 templates = Jinja2Templates(directory="templates")
 
 @app.get("/en", response_class=HTMLResponse)
@@ -40,15 +39,16 @@ async def process_data():
     data = xmltodict.parse(response.content, attr_prefix='', process_namespaces=True, namespaces=namespaces)
     items = data.get("rss").get("channel").get("item")
     now = datetime.datetime.now()
-    formatted_time = now.strftime("%a %d %b %Y")
+    formatted_time = now.strftime("%a, %d %b %Y")
     required_data = []
     for item in items:
         translator= Translator(to_lang="es")
+        datetime_obj = datetime.datetime.strptime(str(item.get('pubDate', '')), '%a, %d %b %Y %H:%M:%S %z')
         temp_data = {}
         temp_data['es_title'] = translator.translate(item.get('title', ''))
         temp_data['title'] = item.get('title', '')
-        temp_data['pub_date'] = item.get('pubDate', '')
-        temp_data['description'] = item.get('description', '')
+        temp_data['pub_date'] = datetime_obj.strftime('%b %d, %Y')
+        temp_data['description'] = await list_to_string(item.get('description', ''))
         temp_data['creator'] = item.get('creator', '')
         temp_data['link'] = item.get('link', '#')
         temp_data['image_url'] = item.get('content', '...')
@@ -57,3 +57,8 @@ async def process_data():
         required_data.append(temp_data)
     
     return (required_data, formatted_time)
+
+async def list_to_string(data):
+    if type(data) == list:
+        return " ".join(data)
+    return data

@@ -6,15 +6,29 @@ body div div a:hover, body div div div a:hover, body div div div a, body div div
     position: relative;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: auto;
+    background-color: white;
   }
+
 .text-size {
     padding-bottom: 5px;
     font-size: xx-small;
 }
+
 .pad {
-    border:color(from color srgb r g b);
+    background-color: white;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #000000;
+    text-align: left;
+    background-color: #f8f9fa;
 }
 
 .right {

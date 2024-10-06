@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Item Details</title>
+    <title>Natera Test Task</title>
     <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 <body>
     
         <!-- Top navigation -->
-<div class="row nav navbar sticky-top navbar-light bg-light border-bottom border-dark">
+<div class="navbar sticky-top navbar-light bg-light border-bottom border-dark">
 
     <!-- Centered link -->
     <div class="center">
@@ -24,31 +24,29 @@
     
     <!-- Right-aligned links -->
     <div class="right">
-      <a href="/en">ENG</a>/<a href="/es">ESP</a>
+      <a href="/en">ENG</a> \ <a href="/es">ESP</a>
     </div>
   </div>
         <br>
     <div class="container pad">
     {% for item in data %}
         <div class="row border-bottom border-dark contain">
-                <div class="media col-12 col-md-9">
+                <div class="media col-10 col-md-8">
                     <a href="{{ item['link'] }}">
                     <div class="media-body">
-                        <h6 class="mt-0 mb-1">{{ item['pub_date'][5:16] }}</h6>
-                        <h5 class="mt-0 mb-1">{{ item["title"] }}</h5>
+                        <h6>{{ item['pub_date'] }}</h6>
+                        <h5>{{ item["title"] }}</h5>
+                        <br>
                         {{ item['description'] }}
+                        <br>
+                        <br>
                         <p class="text-size">BY {{ item['creator'] | upper }}</p>
                     </div>
                     </a>
                 </div>
-                <div class="col-6 col-md-3"><a href="{{ item['link'] }}"><img class="ml-3 rounded float-end" src="{{ item['image_url'] }}" style="display: inline-block;" alt="{{ item['title'] }}" height="150px" width="200px"></a></div>
+                <div class="col-8 col-md-4"><a href="{{ item['link'] }}"><img class="ml-3 rounded float-end" src="{{ item['image_url'] }}" style="display: inline-block;" alt="{{ item['title'] }}" height="200px" width="300px"></a></div>
         </div>
     {% endfor %}
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>
