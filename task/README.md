@@ -34,3 +34,12 @@ Go to `http://127.0.0.1:8000/` in your browser.
 4. HTML
 5. translate library (for language change)
 6. xmltodict library (for parsing xml data to dictionary)
+
+## Screenshots
+
+1. Main Page
+![image info](./static/main_page.png)
+2. ESP page
+![image info](./static/es_page.png)
+3. ENG Page
+![image info](./static/en_page.png)

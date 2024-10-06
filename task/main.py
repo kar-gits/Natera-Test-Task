@@ -25,6 +25,9 @@ async def page_load(request: Request):
 @app.get("/es", response_class=HTMLResponse)
 async def es_page_load(request: Request):
     data = await process_data()
+    translator= Translator(to_lang="es")
+    for idx, item in enumerate(data[0]):
+        data[0][idx]['es_title'] = translator.translate(item['title'])
     return templates.TemplateResponse(
         request=request, name="es_template.html", context={"data": data[0], "date": data[1]}
     )
@@ -42,10 +45,8 @@ async def process_data():
     formatted_time = now.strftime("%a, %d %b %Y")
     required_data = []
     for item in items:
-        translator= Translator(to_lang="es")
         datetime_obj = datetime.datetime.strptime(str(item.get('pubDate', '')), '%a, %d %b %Y %H:%M:%S %z')
         temp_data = {}
-        temp_data['es_title'] = translator.translate(item.get('title', ''))
         temp_data['title'] = item.get('title', '')
         temp_data['pub_date'] = datetime_obj.strftime('%b %d, %Y')
         temp_data['description'] = await list_to_string(item.get('description', ''))
@@ -56,7 +57,7 @@ async def process_data():
             temp_data['image_url'] = item.get('content', '...').get('url', '...')
         required_data.append(temp_data)
     
-    return (required_data, formatted_time)
+    return [required_data, formatted_time]
 
 async def list_to_string(data):
     if type(data) == list:
