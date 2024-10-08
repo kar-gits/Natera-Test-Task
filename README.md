@@ -38,8 +38,8 @@ Go to `http://127.0.0.1:8000/` in your browser.
 ## Screenshots
 
 1. Main Page
-![image info](./static/main_page.png)
+![image info](./task/static/main_page.png)
 2. ESP page
-![image info](./static/es_page.png)
+![image info](./task/static/es_page.png)
 3. ENG Page
-![image info](./static/en_page.png)
+![image info](./task/static/en_page.png)
