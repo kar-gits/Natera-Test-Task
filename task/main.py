@@ -127,7 +127,10 @@ async def result(request: Request):
     low_risk_only_sorted = dict(sorted(low_risk_only.items(), key=lambda item: item[1], reverse=True))
 
     return templates.TemplateResponse(
-        request=request, name="result_template.html", context={"result": [high_risk_sorted, high_and_inconclusive_sorted, inconclusive_only_sorted, low_risk_only_sorted]}
+        request=request, name="result_template.html", context={"result": {"high_risk" :high_risk_sorted, 
+                                                                        "high_and_inconclusive": high_and_inconclusive_sorted,
+                                                                        "inconclusive_but_no_high": inconclusive_only_sorted,
+                                                                        "low_risk_only": low_risk_only_sorted}}
     )
 
 async def process_data():

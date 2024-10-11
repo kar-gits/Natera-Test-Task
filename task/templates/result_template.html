@@ -1,5 +1,9 @@
 <html>
     <body>
-        {{ result }}
+        <ol>
+        {% for key, value in result.items() %}
+            <h1><li>{{ key }}</span> : {{ ", ".join(value.keys()) }}</li></h1>
+        {% endfor %}
+    </ol>
     </body>
 </html>
