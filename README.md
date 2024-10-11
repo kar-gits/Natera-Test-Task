@@ -1,6 +1,7 @@
 # Natera Test Task
 
 ### After executing `How to run` Go to `http://127.0.0.1:8000/result` for Gene sort solution.
+![image info](./task/static/gene_sort.png)
 
 It is required to build a single page application that displays data, provided by NYT Technology RSS.
 RSS URL: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
